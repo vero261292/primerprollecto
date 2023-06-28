@@ -25,7 +25,7 @@ h1{
 .pras{
   background-color: beige;
   text-align: center;
-  border-radius: .5rem;
+  border-radius: 15px 64px;
   max-width: 300px;
   box-shadow: 2px 2px 8px;
   margin: auto;
@@ -33,14 +33,14 @@ h1{
 }
 
 .aut{
-  padding: 1.5rem;
+  
   background-color: beige;
   text-align: center;
   border-radius: .5rem;
   max-width: 200px;
   box-shadow: 2px 2px 6px;
   margin: auto;
-  
+  padding: 1rem;
 }
 
 
@@ -55,3 +55,4 @@ button{
   padding: 1rem;
 
 }
+
