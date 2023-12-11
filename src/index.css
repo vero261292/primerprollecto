@@ -1,58 +1,59 @@
-
-*{
+* {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
 
-body{
-  background: repeat;
-  background: no-repeat;
-  background-size: cover;
-  padding: 2rem;
-
-}
 
 
-h1{
-  background: fixed;
-  color: white;
+.title{
+  width: 100%;
+  height: 150px;
+  color: rgb(125, 123, 122);
   text-align: center;
-  padding: 2rem;
-
+  background-image:radial-gradient( pink, white);
+  font-size: 40px;
+  text-decoration: none;
+  box-shadow: 4px 4px 8px;
+  margin: 20px;
+  line-height: 130px;
 }
 
-.pras{
-  background-color: beige;
+.pras {
+  color: rgb(125, 123, 122);
   text-align: center;
   border-radius: 15px 64px;
-  max-width: 300px;
-  box-shadow: 2px 2px 8px;
+  max-width: 350px;
+  min-height: 200px;
+  box-shadow: 2px -4px 8px;
   margin: auto;
   padding: 2rem;
+  background-image:radial-gradient( pink, white);
 }
 
-.aut{
+.aut {
+  width: 120px;
+  height: 30px;
+  text-align: center;
+  background-color: beige;
+  border-radius: 0.5rem;
+  box-shadow: 2px -8px 6px;
+  background-image:radial-gradient( pink, white);
   
-  background-color: beige;
-  text-align: center;
-  border-radius: .5rem;
-  max-width: 200px;
-  box-shadow: 2px 2px 6px;
-  margin: auto;
-  padding: 1rem;
+}
+.botton{
+    background-image:radial-gradient( pink, white);
+    width: 100px;
+    height: 35px;
+    border-radius: 5px;
+    color: rgb(125, 123, 122);
+    cursor: pointer;
+    position: absolute;
+    right: 22px;
+    bottom: 50px;
+    left: 430px;
+    box-shadow: 2px -8px 6px;
+    text-decoration: none;
 }
 
-
-button{
-  background-color: beige;
-  text-align: center;
-  border-radius: .5rem;
-  max-width: 100px;
-  box-shadow: 2px 2px 4px;
-  padding: 1rem;
-  margin: auto;
-  padding: 1rem;
-
-}
 

@@ -16,16 +16,17 @@ function App() {
     }else{
       usefondo(0)
     }
-    
     useIndex(Math.floor(Math.random()*gallets.length))
+    
   }
+
   document.body.style= `background-image: url(${fond[fondo]})`
   return (
     <>
      <GalletSuerte 
      beta={gallets[index]}/>
      <div>
-      <button onClick= {suerte}>ver suerte</button>
+      <button className='botton' onClick= {suerte}>siguiente ...</button>
      </div>
      
     </>

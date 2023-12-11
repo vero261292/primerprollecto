@@ -1,1 +1,7 @@
 
+.responsib{
+  display: flex;
+  gap: 4em;
+  justify-content: center;
+  flex-wrap: wrap;
+}
