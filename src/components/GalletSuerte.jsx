@@ -1,30 +1,14 @@
+import './styles/Galleta.css'
 
-
-const GalletSuerte = (props) => {
-    const{beta}= props
+const GalletSuerte = ({data}) => {
+   
 
     return (
-        <article className="responsib">
-            <section>
-            <h1 className="title">*****GALLETAS DE LA SUERTE *****</h1>
-            <h2 className="title-h2">
-                <div className="pras">
-                    <p>
-                    {beta.phrase}
-                    </p>
-                </div>
-            </h2>
-            </section>
-            <section>
-                <div className="aut">
-                    <p>
-                    {beta.author}
-                    </p>
-                </div>                    
-            </section>
-        </article>
-
-
+      <article className='responsib'>
+        <h1 className='title__galleta'>**GALLETA DE LA SUERTE**</h1>
+        <div className='galleta__frase'>{data.phrase}</div>
+        <div className='galleta__autor'>{data.author}</div>
+      </article>
     )
 }
 

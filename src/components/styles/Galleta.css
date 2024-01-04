@@ -1,0 +1,42 @@
+
+.title__galleta {
+    color: #ccc;
+    padding: 40px;
+    font-size: 50px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+}
+
+.galleta__frase{
+    display: flex;
+    position: center;
+    width: 500px;
+    height: 200px;
+    border: solid 2px #66424243;
+    background-image: radial-gradient(#ccc, #dddddd8f);
+    box-shadow: 4px 8px 4px #ccc;
+    border-radius: 50px 0px 50px 0;
+    color: rgba(23, 53, 83, 0.912);
+    text-align: center;
+    padding: 60px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.galleta__autor{
+    width: 350px;
+    height: 38px;
+    border: #ccc solid 1px;
+    box-shadow: 4px 5px 1px #ccc;
+    padding: 8px;
+    text-align: center;
+    color: rgba(23, 53, 83, 0.912);
+    background-image: radial-gradient(#ccc, #dddddd8f);
+    margin: 20px;
+}
+
+.responsib{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    flex-flow: column wrap;
+    align-items: center;
+}

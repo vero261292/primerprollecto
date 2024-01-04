@@ -5,55 +5,15 @@
 }
 
 
-
-.title{
-  width: 100%;
-  height: 150px;
-  color: rgb(125, 123, 122);
-  text-align: center;
-  background-image:radial-gradient( pink, white);
-  font-size: 40px;
-  text-decoration: none;
-  box-shadow: 4px 4px 8px;
-  margin: 20px;
-  line-height: 130px;
-}
-
-.pras {
-  color: rgb(125, 123, 122);
-  text-align: center;
-  border-radius: 15px 64px;
-  max-width: 350px;
-  min-height: 200px;
-  box-shadow: 2px -4px 8px;
-  margin: auto;
-  padding: 2rem;
-  background-image:radial-gradient( pink, white);
-}
-
-.aut {
-  width: 120px;
-  height: 30px;
-  text-align: center;
-  background-color: beige;
-  border-radius: 0.5rem;
-  box-shadow: 2px -8px 6px;
-  background-image:radial-gradient( pink, white);
-  
-}
 .botton{
-    background-image:radial-gradient( pink, white);
-    width: 100px;
-    height: 35px;
-    border-radius: 5px;
-    color: rgb(125, 123, 122);
-    cursor: pointer;
-    position: absolute;
-    right: 22px;
-    bottom: 50px;
-    left: 430px;
-    box-shadow: 2px -8px 6px;
-    text-decoration: none;
+ color: rgba(23, 53, 83, 0.912);
+ font-family:'Times New Roman', Times, serif;
+ background-color: rgb(65, 227, 173);
+ width: 300px;
+ height: 45px;
+ padding: 4px;
+ margin: 50px;
+ font-size: 30px;
+ border: solid 2px #66424243;
+ box-shadow: 4px 8px 4px rgba(6, 177, 120, 0.71);
 }
-
-
